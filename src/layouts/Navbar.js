@@ -25,7 +25,6 @@ function Navbar() {
                             <a href="#">Presença</a>
                         </li>
                     </ul>
-                   
                 </nav>
             </div>
         </header>
