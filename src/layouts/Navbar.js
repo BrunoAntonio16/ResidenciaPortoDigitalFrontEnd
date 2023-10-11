@@ -3,7 +3,6 @@ import styles from './Navbar.module.css'
 
 function Navbar() {
     return (
-
         <header className={styles.header}>
             <div className={styles.block}>
                 <a href="#">Home</a>
