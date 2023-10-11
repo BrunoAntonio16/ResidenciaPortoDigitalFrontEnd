@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <Navbar/>
      <h1>SimleSystem</h1>
+     <a href="#" className="btn btn-primary">Botão</a>
     </div>
   );
 }
