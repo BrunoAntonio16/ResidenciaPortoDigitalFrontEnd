@@ -8,6 +8,8 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+    text-transform: uppercase;
 }
 
 .navbar{
@@ -35,4 +37,8 @@
 .block a:hover{
     color:crimson;
     text-decoration: none;
+}
+
+.logoImage{
+    width: 50%;
 }

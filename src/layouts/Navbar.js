@@ -6,7 +6,7 @@ function Navbar() {
         <header className={styles.header}>
             <div className={styles.block}>
                 <a href="#">Home</a>
-                <img src={logo} alt="SmileSystem" />
+                <img className={styles.logoImage} src={logo} alt="SmileSystem" />
                 <a href="#">Sobre</a>
             </div>
             <div className={styles.block} >
