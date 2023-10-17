@@ -1,0 +1,37 @@
+.logo{
+    width: 2%;
+}
+
+.footerConteiner{
+    width: 100%;
+    padding: 70px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.footerBottom{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom{
+    color: black;
+}
+
