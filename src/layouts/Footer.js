@@ -9,6 +9,7 @@ function Footer() {
                 <a href='#'><i className="fa-brands fa-instagram"></i></a>
                 <a href='#'><i className="fa-brands fa-twitter"></i></a>
                 <a href='#'><i className="fa-brands fa-youtube"></i></a>
+                <a href='#'><i className="fa-brands fa-whatsapp"></i></a>
             </div>
             <div className={styles.footerBottom} >
                 <img className={styles.logo} src={logo} alt="SmileSystem" />

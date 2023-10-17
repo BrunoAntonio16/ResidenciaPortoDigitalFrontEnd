@@ -9,7 +9,7 @@ function Navbar() {
                 <img className={styles.logo} src={logo} alt="SmileSystem" />
                 <a href="#">Sobre</a>
             </div>
-            <div className={styles.block} >
+            <div className={styles.blockTwo} >
                 <nav className={styles.navbar} >
                     <ul className={styles.list} >
                         <li className={styles.itens} >

@@ -1,5 +1,5 @@
 .logo{
-    width: 2%;
+    width: 3%;
 }
 
 .footerConteiner{
@@ -29,6 +29,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
 .footerBottom{

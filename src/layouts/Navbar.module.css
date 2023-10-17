@@ -11,6 +11,14 @@
     padding: 10px;
 }
 
+.blockTwo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 .navbar{
     display: flex;
     width: 100%;
@@ -28,13 +36,32 @@
     margin: 1rem;
 }
 
+.itens{
+    font-size: 0%;
+}
+
+
 .block a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
+.blockTwo a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
 .block a:hover{
+    color:crimson;
+    text-decoration: none;
+}
+
+.blockTwo a:hover{
     color:crimson;
     text-decoration: none;
 }
