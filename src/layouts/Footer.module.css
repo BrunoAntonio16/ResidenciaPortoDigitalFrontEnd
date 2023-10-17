@@ -1,3 +1,7 @@
+.footerConteiner{
+    background-color: #92f5b3;
+}
+
 .logo{
     width: 3%;
 }
@@ -15,13 +19,14 @@
 .socialIcons a{
     padding: 10px;
     margin: 10px;
-    border-radius: 50%;
     justify-content: space-around;
 }
 
 .socialIcons a i{
     font-size: 2em;
     color: black;
+    background-color: #92f5b3;
+    border-radius: 50%;
     opacity: 0.9;
 }
 
@@ -36,3 +41,11 @@
     color: black;
 }
 
+.socialIcons a i:hover{
+    color:white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}

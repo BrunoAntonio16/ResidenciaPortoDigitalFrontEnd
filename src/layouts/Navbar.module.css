@@ -1,4 +1,6 @@
 .header{
+    background-color: #92f5b3;
+    border-bottom: 2px solid #000000;
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +18,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .navbar{
@@ -57,15 +59,24 @@
 
 
 .block a:hover{
-    color:crimson;
+    color:white;
     text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.5s;
 }
 
 .blockTwo a:hover{
-    color:crimson;
+    color:white;
     text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.5s;
 }
 
+
 .logo{
-    width: 10%;
+    width: 7%;
 }
