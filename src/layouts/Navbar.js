@@ -6,10 +6,10 @@ function Navbar() {
         <header className={styles.header}>
             <div className={styles.block}>
                 <a href="#">Home</a>
-                <img src={logo} alt="SmileSystem" />
+                <img className={styles.logo} src={logo} alt="SmileSystem" />
                 <a href="#">Sobre</a>
             </div>
-            <div className={styles.block} >
+            <div className={styles.blockTwo} >
                 <nav className={styles.navbar} >
                     <ul className={styles.list} >
                         <li className={styles.itens} >

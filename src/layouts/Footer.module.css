@@ -1,0 +1,51 @@
+.footerConteiner{
+    background-color: #92f5b3;
+}
+
+.logo{
+    width: 3%;
+}
+
+.footerConteiner{
+    width: 100%;
+    padding: 70px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    background-color: #92f5b3;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.footerBottom{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerBottom{
+    color: black;
+}
+
+.socialIcons a i:hover{
+    color:white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
