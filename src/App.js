@@ -1,11 +1,33 @@
-import Navbar from "./layouts/Navbar";
+import NavBar from './components/NavBar/NavBar';
+
+const meusItems = [
+  {
+    route: "",
+    text: "Home"
+  },
+
+  {
+    route: "",
+    text: "Info"
+  },
+
+  {
+    route: "",
+    text: "About"
+  },
+
+  {
+    route: "",
+    text: "Functions"
+  }
+
+];
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-     <h1>SimleSystem</h1>
-     <a href="#" className="btn btn-primary">Botão</a>
+        <NavBar Item={meusItems}/>
     </div>
   );
 }
