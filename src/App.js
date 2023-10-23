@@ -1,5 +1,7 @@
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
+//import { Form } from 'react-router-dom';
+import Form from './components/Form/Form';
 
 const meusItems = [
   {
@@ -42,10 +44,23 @@ const meusIcons = [
   }
 ];
 
+const meusInputs = [
+  {
+    type: "text",
+    placeholder: "Insira seu email"
+  },
+
+  {
+    type: "password",
+    placeholder: "Insira sua senha"
+  }
+];
+
 function App() {
   return (
     <div className="App">
         <NavBar Item={meusItems}/>
+        <Form Inputs={meusInputs}/>
         <Footer Icons={meusIcons}/>
     </div>
   );
