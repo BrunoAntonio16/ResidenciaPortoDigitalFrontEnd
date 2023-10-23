@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 const meusItems = [
   {
@@ -23,11 +24,29 @@ const meusItems = [
 
 ];
 
+const meusIcons = [
+  {
+    link: "fa-brands fa-instagram"
+  },
+
+  {
+    link: "fa-brands fa-whatsapp"
+  },
+
+  {
+    link: "fa-brands fa-linkedin"
+  },
+
+  {
+    link: "fa-brands fa-square-x-twitter"
+  }
+];
 
 function App() {
   return (
     <div className="App">
         <NavBar Item={meusItems}/>
+        <Footer Icons={meusIcons}/>
     </div>
   );
 }
