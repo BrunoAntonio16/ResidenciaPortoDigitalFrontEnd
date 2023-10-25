@@ -2,6 +2,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 //import { Form } from 'react-router-dom';
 import Form from './components/Form/Form';
+import Table from './components/Table/Table';
 
 const meusItems = [
   {
@@ -24,6 +25,22 @@ const meusItems = [
     text: "Functions"
   }
 
+];
+
+const Alunos = [
+  {
+    aluno: "Bruno Antonio",
+    turma: "Única",
+    turno: "Noite",
+    email: "brunoantonio0210@gmail.com"
+  },
+
+  {
+    aluno: "Bruno Antonio",
+    turma: "Única",
+    turno: "Noite",
+    email: "brunoantonio0210@gmail.com"
+  }
 ];
 
 const meusIcons = [
@@ -62,6 +79,7 @@ function App() {
         <NavBar Item={meusItems}/>
         <Form Inputs={meusInputs}/>
         <Footer Icons={meusIcons}/>
+        <Table Item={Alunos}/>
     </div>
   );
 }
