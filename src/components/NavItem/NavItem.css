@@ -1,0 +1,20 @@
+.li-navbar-custom{
+    display: inline;
+    justify-content: center;
+}
+
+.li-navbar-custom a{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.li-navbar-custom:first-child{
+    margin-left: 20px;
+}
+.li-navbar-custom:last-child{
+    margin-right: 20px;
+}
+.li-navbar-custom{
+    margin-right: 20px;
+    margin-left: 20px;
+}

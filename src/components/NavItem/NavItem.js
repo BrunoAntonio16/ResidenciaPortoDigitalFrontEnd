@@ -1,6 +1,8 @@
+import './NavItem.css';
+
 function NavItem(props) {
     return (
-        <li><a href="#">{props.text}</a></li>
+        <li className="li-navbar-custom"><a href="#">{props.text}</a></li>
     );
 }
 

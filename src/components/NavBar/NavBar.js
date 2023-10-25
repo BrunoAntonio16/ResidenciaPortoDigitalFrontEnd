@@ -1,8 +1,12 @@
 import NavItem from "../NavItem/NavItem";
+import './NavBar.css';
 
 function NavBar(props) {
     return (
-       <div>
+       <div className="navbar">
+            <div className="navbar-header-image">
+                <img src="#"/>
+            </div>
             <nav>
                 <ul>
                     {
