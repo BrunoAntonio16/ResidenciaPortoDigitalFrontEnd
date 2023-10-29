@@ -1,8 +1,8 @@
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 //import { Form } from 'react-router-dom';
-import Form from './components/Form/Form';
 import Table from './components/Table/Table';
+import FormLogin from './components/FormLogin/FormLogin';
 
 const meusItems = [
   {
@@ -64,12 +64,22 @@ const meusIcons = [
 const meusInputs = [
   {
     type: "text",
-    placeholder: "Insira seu email"
+    placeholder: "Email",
   },
 
   {
     type: "password",
-    placeholder: "Insira sua senha"
+    placeholder: "Senha"
+  }
+];
+
+const icons = [
+  {
+    class: "fa-solid fa-user"
+  },
+
+  {
+    class: "fa-solid fa-lock"
   }
 ];
 
@@ -77,7 +87,7 @@ function App() {
   return (
     <div className="App">
         <NavBar Item={meusItems}/>
-        <Form Inputs={meusInputs}/>
+        <FormLogin Inputs={meusInputs} titulo="Login" text="Entrar"/>
         <Footer Icons={meusIcons}/>
         <Table Item={Alunos}/>
     </div>

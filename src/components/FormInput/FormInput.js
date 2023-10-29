@@ -1,6 +1,10 @@
+import './FormInput.css';
+ 
  function FormInput(props) {
     return (
-        <input type={props.type} placeholder={props.placeholder} />
+        <div className="form-input">
+            <input type={props.type} placeholder={props.placeholder} />
+        </div>  
     );
  }
 
