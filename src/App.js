@@ -6,6 +6,7 @@ import FormLogin from './components/FormLogin/FormLogin';
 import Filtro from './layouts/Filtro';
 import Navbar from './layouts/Navbar';
 import Footer from './layouts/Footer';
+import Form from './layouts/Form';
 
 const meusItems = [
   {
@@ -90,6 +91,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Form />
+      <Lista />
       <Footer />
     </div>
   );
