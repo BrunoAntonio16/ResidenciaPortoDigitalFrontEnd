@@ -1,7 +1,7 @@
 .footer{
     display: block;
     align-items: center;
-    background: rgb(255, 25, 25);
+    background: rgb(0, 0, 0);
 }
 
 footer nav{
@@ -15,7 +15,14 @@ footer nav{
     padding: 20px;
 }
 
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
 .footer-copy{
     padding: 10px;
     text-align: center;
+    color: white;
 }
+
