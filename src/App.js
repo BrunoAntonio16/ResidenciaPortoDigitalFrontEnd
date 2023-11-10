@@ -1,8 +1,11 @@
 import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
 //import { Form } from 'react-router-dom';
-import Table from './components/Table/Table';
+//import Table from './components/Table/Table';
+import Lista from './layouts/Lista';
 import FormLogin from './components/FormLogin/FormLogin';
+import Filtro from './layouts/Filtro';
+import Navbar from './layouts/Navbar';
+import Footer from './layouts/Footer';
 
 const meusItems = [
   {
@@ -86,10 +89,8 @@ const icons = [
 function App() {
   return (
     <div className="App">
-        <NavBar Item={meusItems}/>
-        <FormLogin Inputs={meusInputs} titulo="Login" text="Entrar"/>
-        <Footer Icons={meusIcons}/>
-        <Table Item={Alunos}/>
+      <Navbar />
+      <Footer />
     </div>
   );
 }
