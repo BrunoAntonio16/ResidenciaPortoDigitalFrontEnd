@@ -1,22 +1,29 @@
-import { useRef, useState } from 'react';
-import './Navbar.css';
-
+//import { useRef, useState } from 'react';
 function Navbar() {
     return(
-        <>
-            <div className="navbar">
-                <div className="navbar-logo">
-                    <a href='#'>SmileSystem</a>
+        <> 
+            <nav className='navbar bg-primary'>
+                <div className='text-center'  >
+                    <a className='navbar-brand m-0'>
+                        SmileSystem
+                    </a>
+                    <div className="container">
+                            <div className='navbar-nav'>
+                                <li className='nav-item d-flex align-items-center justify-content-center'>
+                                    <a href="#" className='nav-link bg-transparent active px-2'>
+                                        Home
+                                    </a>
+                                    <a href="#" className='nav-link bg-transparent active px-2'>
+                                        Function
+                                    </a>
+                                    <a href="#" className='nav-link bg-transparent active px-2'>
+                                        About
+                                    </a>
+                                </li>
+                            </div>
+                    </div>
                 </div>
-                <nav className="navbar-nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#" >Functions*</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Profile*</a></li>
-                    </ul>
-                </nav>
-            </div>
+            </nav>
         </>
     );
 }
