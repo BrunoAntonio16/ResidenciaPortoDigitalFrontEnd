@@ -91,9 +91,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Form />
-      <Lista />
-      <Footer />
+     
+      
     </div>
   );
 }
