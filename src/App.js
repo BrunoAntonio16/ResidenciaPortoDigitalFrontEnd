@@ -92,7 +92,7 @@ function App() {
     <div className="App">
       <Navbar />
      
-      
+      <Footer />
     </div>
   );
 }
