@@ -91,7 +91,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-     
+      <Form />
       <Footer />
     </div>
   );
