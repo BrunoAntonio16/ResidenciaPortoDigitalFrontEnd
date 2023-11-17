@@ -1,31 +1,43 @@
 //import { useRef, useState } from 'react';
+import "./Navbar.css";
 function Navbar() {
-    return(
-        <> 
-            <nav className='navbar bg-primary'>
-                <div className='text-center'  >
-                    <a className='navbar-brand m-0'>
-                        SmileSystem
-                    </a>
-                    <div className="container">
-                            <div className='navbar-nav'>
-                                <li className='nav-item d-flex align-items-center justify-content-center'>
-                                    <a href="#" className='nav-link bg-transparent active px-2'>
-                                        Home
-                                    </a>
-                                    <a href="#" className='nav-link bg-transparent active px-2'>
-                                        Function
-                                    </a>
-                                    <a href="#" className='nav-link bg-transparent active px-2'>
-                                        About
-                                    </a>
-                                </li>
-                            </div>
-                    </div>
-                </div>
-            </nav>
-        </>
-    );
+  return (
+    <>
+      <nav className="navbar navbar-expand">
+        <div className="container-fluid">
+          <a href="#" className="navbar-brand">
+            SmilleSystem
+          </a>
+            <div className="navbar-nav ms-auto">
+              <li className="nav-item px-2">
+                <a
+                  href="#"
+                  className="nav-link bg-transparent border-trasparent text-dark"
+                >
+                  Home
+                </a>
+              </li>
+              <li className="nav-item px-2">
+                <a
+                  href="#"
+                  className="nav-link bg-transparent border-none text-dark"
+                >
+                  Functions
+                </a>
+              </li>
+              <li className="nav-item px-2">
+                <a
+                  href="#"
+                  className="nav-link bg-transparent border-trasparent text-dark"
+                >
+                  About
+                </a>
+              </li>
+            </div>
+          </div>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;
