@@ -1,106 +1,17 @@
-.table{
-    background-color: rgb(233, 233, 233);
-    margin-top: 1rem;
-    border-radius: 10px;
-    padding: 2rem;
-}
-
-.table-title{
-    font-size: 30px;
-}
-
-.table-menu-itens{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 .table-menu-itens li{
     display: inline;
-    padding-right: 15px;
-    font-size: 20px;
+    padding-left: 10px;
 }
 
 .table-menu-itens a{
     text-decoration: none;
     color: black;
 }
+
 .table-menu-itens a:hover{
-    border-radius:  5px;
-    padding: 10px;
-    border: solid black;
+    border-bottom: 2px solid black;
 }
 
-.table-filter{
-    width: 100%;
-}
-
-.table-filter input{
-   border: none;
-   padding: 15px;
-   width: 50%;
-   font-size: 20px;
-}
-
-.table-body-itens{
-    width: 100%;
-    border-collapse: collapse;
-    padding-top: 40px;
-}
-
-.table-body-itens table{
-    border-collapse: collapse;
-}
-
-.table-body-itens thead{
-    background-color: rgb(255, 92, 33);
-}
-
-.table-body-itens th{
-    padding: 30px;
-    text-align: left;
-}
-
-.table-body-itens tbody{
-   background-color: white;
-}
-
-.table-body-itens td{
-    font: size 15px;
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
-}
-
-.table-body-itens td button{
-    font-size: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 2px;
-    background-color: rgba(255, 81, 0, 0.952);
-    cursor: pointer;
-}
-.table-body-itens td button:hover{
-    font-size: 12px;
-    background-color: rgb(255, 47, 47);
-    
-}
-
-.table-button{
-    padding-top: 40px;
-}
-
-.table-button button{
-    font-size: 30px;
-    padding: 10px;
-    border: none;
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 2px;
-    background-color: white;
-    cursor: pointer;
-}
-
-.table-button button:hover{
-    font-size: 35px;
-    background-color: rgb(47, 255, 75);
-    border: none;
+.functions a{
+    padding: 5px;
 }
