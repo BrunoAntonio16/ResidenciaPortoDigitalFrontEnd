@@ -2,31 +2,14 @@ import "./Footer.css";
 
 function Footer() {
     return (
-      <footer className="p-2 pb-0 fixed-bottom">
-        <div className="container text-dark text-center">
-          <div className="row d-flex justify-content-center">
-            <div className="text-center">
-              <ul className="list-unstyled list-inline">
-                <li className="list-inline-item">
-                  <a href="#" className="text-dark px-2">
-                    Whatsapp
-                  </a>
-                  <a href="#" className="text-dark px-2">
-                    Instagram
-                  </a>
-                  <a href="#" className="text-dark px-2">
-                    Discord
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="row d-flex justify-content-center">
-            <div>
-              <p>Copyright &copy;2023; SmileSystem</p>
-            </div>
-          </div>
-        </div>
+      <footer class="p-4 fixed-bottom d-flex flex-column">
+            <nav class="nav nav-underline justify-content-center">
+                <a href="#" class="nav-link text-black">Whatsapp</a>
+                <a href="#" class="nav-link text-black">Instagram</a>
+                <a href="#" class="nav-link text-black">GitHub</a>
+                <a href="#" class="nav-link text-black">LinkedIn</a>
+            </nav>
+            <a href="#" class="text-center text-black">Sistema Escolar(S.E)</a>
       </footer>
     );
   }
