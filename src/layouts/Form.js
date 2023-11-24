@@ -3,33 +3,24 @@ import "./Form.css";
 function Form() {
   return (
     <>
-      <div className="container-fluid">
-        <form className="mx-auto">
-          <h1 className="text-center">Login</h1>
+      <div class="container-fluid">
+        <form class="mx-auto" action="ValidarLoginAdmin.jsp" method="post">
+          <h1 class="text-white">
+            Login
+          </h1>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">
+            <label for="email" class="text-white">
               Email
             </label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
+            <input type="text" class="form-control text-white" id="login" name="login"/>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">
-              Senha
+            <label for="senha" class="text-white ">
+              Email
             </label>
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
+            <input type="password" class="form-control text-white" id="senha" name="senha"/>
           </div>
-          <button type="submit" class="btn btn-primary">
-            Entrar
-          </button>
+          <button type="submit" class="btn btn-primary text-white">Entrar</button>
         </form>
       </div>
     </>

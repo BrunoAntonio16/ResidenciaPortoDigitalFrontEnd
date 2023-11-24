@@ -1,21 +1,33 @@
-form {
+form{
     width: 24%;
     background-color: #70ff7e;
     padding: 50px;
-    border-radius: 10px;
-    margin-top: 30px;
-  }
-  
-  .btn-primary {
+    border-radius: 5px;
+    margin-top: 150px;   
+}
+
+.btn-primary{
     width: 100%;
     border: none;
-  }
-  
-  .form-control {
+    border-radius: 5px;
+    background: black;
+}
+
+.btn-primary:hover{
+    background: primary;
+}
+
+.form-control{
     background: transparent;
-    border: none;
-    border-bottom: 1px solid black;
-    border-radius: 0px;
     box-shadow: none !important;
-    color: transparent;
-  }
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+
+.form-control:focus{
+    background-color: transparent;
+}
+ 
+  
+ 
