@@ -1,83 +1,76 @@
+import TableItemHead from '../components/TableItemHead';
 import './Lista.css';
 
-function Lista(){
+function Lista(props){
     return(
         <>
-            <div className="container-fluid mt-3">
-                <div className="row table-menu-itens me-auto">
-                    <nav>
-                        <ul className='mb-0 py-3 px-2'>
-                            <li><a href="#">Aluno</a></li>
-                            <li><a href="#">Mentor</a></li>
-                            <li><a href="#">Empresa</a></li>
-                            <li><a href="#">Faculdade</a></li>
-                        </ul>
+            <div class="container-fluid">
+                <div className='caixa'>
+                    <nav class="nav nav-underline justify-content-start">
+                        <a href="#" class="nav-link text-black " id='tableAluno'>Aluno</a>
+                        <a href="#" class="nav-link text-black " id='tableMentor'>Mentor</a>
+                        <a href="#" class="nav-link text-black " id='tableFaculdade'>Faculdade</a>
+                        <a href="#" class="nav-link text-black " id='tableEmpresa'>Empresa</a>
                     </nav>
-                </div>
-                <table class="table table-responsive-sm table-bordered table-hover text-center">
-                    <thead>
-                        <tr className="principal-line">
-                            <th scope="col">Id</th>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Faculadade</th>
-                            <th scope="col">Turma</th>
-                            <th scope="col">Turno</th>
-                            <th scope="col">Squad</th>
-                            <th scope="col">Empresa</th>
-                            <th scope="col">Mentor</th>
-                            <th scope="col">Functions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Bruno Antonio</td>
-                            <td>brunoantonio0210@gmail.com</td>
-                            <td>FICR</td>
-                            <td>3-A</td>
-                            <td>Noite</td>
-                            <td>32</td>
-                            <td>Bidweb</td>
-                            <td>Robson José</td>
-                            <td className='functions'>
-                                <a href='#'><i class="fa-solid fa-square-plus"></i></a>
-                                <a href='#'><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                        <th scope="row">1</th>
-                            <td>Bruno Antonio</td>
-                            <td>brunoantonio0210@gmail.com</td>
-                            <td>FICR</td>
-                            <td>3-A</td>
-                            <td>Noite</td>
-                            <td>32</td>
-                            <td>Bidweb</td>
-                            <td>Robson José</td>
-                            <td className='functions'>
-                                <a href='#'><i class="fa-solid fa-square-plus"></i></a>
-                                <a href='#'><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                        <th scope="row">1</th>
-                            <td>Bruno Antonio</td>
-                            <td>brunoantonio0210@gmail.com</td>
-                            <td>FICR</td>
-                            <td>3-A</td>
-                            <td>Noite</td>
-                            <td>32</td>
-                            <td>Bidweb</td>
-                            <td>Robson José</td>
-                            <td className='functions'>
-                                <a href='#'><i class="fa-solid fa-square-plus"></i></a>
-                                <a href='#'><i class="fa-solid fa-trash"></i></a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <table class="table table-hover">
+                        <thead className=''>
+                            <tr>
+                                <th scope="col">id</th>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Faculdade</th>
+                                <th scope="col">Turma</th>
+                                <th scope="col">Turno</th>
+                                <th scope="col">Squad</th>
+                                <th scope="col">Functions</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Bruno Antonio</td>
+                                <td>brunoantonio0210@gmail.com</td>
+                                <td>FICR</td>
+                                <td>A-343</td>
+                                <td>NOITE</td>
+                                <td>30</td>
+                                <td>
+                                    <button className='btn btn-success m-2'>Adicionar</button>
+                                    <button className='btn btn-danger m-2'>Excluir</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Bruno Antonio</td>
+                                <td>brunoantonio0210@gmail.com</td>
+                                <td>FICR</td>
+                                <td>A-343</td>
+                                <td>NOITE</td>
+                                <td>30</td>
+                                <td>
+                                    <button className='btn btn-success m-2'>Adicionar</button>
+                                    <button className='btn btn-danger m-2'>Excluir</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Bruno Antonio</td>
+                                <td>brunoantonio0210@gmail.com</td>
+                                <td>FICR</td>
+                                <td>A-343</td>
+                                <td>NOITE</td>
+                                <td>30</td>
+                                <td>
+                                    <button className='btn btn-success m-2'>Adicionar</button>
+                                    <button className='btn btn-danger m-2'>Excluir</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>    
             </div>
+               
         </>
     );
 }
