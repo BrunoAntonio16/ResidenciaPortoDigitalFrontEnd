@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import FormLogin from "./components/FormLogin";
+import FormLogin from "./components/FormLogin/FormLogin";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
 import Table from "./components/table/Table";
