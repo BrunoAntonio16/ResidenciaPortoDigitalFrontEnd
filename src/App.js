@@ -1,99 +1,59 @@
-import NavBar from './components/NavBar/NavBar';
 //import { Form } from 'react-router-dom';
 //import Table from './components/Table/Table';
-import Lista from './layouts/Lista';
-import FormLogin from './components/FormLogin/FormLogin';
-import Filtro from './layouts/Filtro';
-import Navbar from './layouts/Navbar';
-import Footer from './layouts/Footer';
-import Form from './layouts/Form';
+import FormLogin from './layouts/FormLogin/FormLogin';
+import NavBar  from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
-const meusItems = [
+
+const ItensNav = [
   {
-    route: "",
-    text: "Home"
+    href: "#",
+    text: "Home",
   },
 
   {
-    route: "",
-    text: "Info"
+    href: "#",
+    text: "Functions",
+    dbt: "offcanvas",
+    role: "button",
+    ac: "sidebar",
   },
 
   {
-    route: "",
-    text: "About"
-  },
-
-  {
-    route: "",
-    text: "Functions"
+    href: "#",
+    text: "About",
   }
+]
 
-];
-
-const Alunos = [
+const ItensFooter = [
+  
   {
-    aluno: "Bruno Antonio",
-    turma: "Única",
-    turno: "Noite",
-    email: "brunoantonio0210@gmail.com"
+    href: "#",
+    text: "Whatsapp",
   },
 
   {
-    aluno: "Bruno Antonio",
-    turma: "Única",
-    turno: "Noite",
-    email: "brunoantonio0210@gmail.com"
-  }
-];
-
-const meusIcons = [
-  {
-    link: "fa-brands fa-instagram"
+    href: "#",
+    text: "Discord",
   },
 
   {
-    link: "fa-brands fa-whatsapp"
+    href: "#",
+    text: "Instagram",
   },
 
   {
-    link: "fa-brands fa-linkedin"
+    href: "#",
+    text: "LinkedIn",
   },
+  
+]
 
-  {
-    link: "fa-brands fa-square-x-twitter"
-  }
-];
-
-const meusInputs = [
-  {
-    type: "text",
-    placeholder: "Email",
-  },
-
-  {
-    type: "password",
-    placeholder: "Senha"
-  }
-];
-
-const icons = [
-  {
-    class: "fa-solid fa-user"
-  },
-
-  {
-    class: "fa-solid fa-lock"
-  }
-];
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Form />
-      <Lista />
-      <Footer />
+          <FormLogin />
     </div>
   );
 }
