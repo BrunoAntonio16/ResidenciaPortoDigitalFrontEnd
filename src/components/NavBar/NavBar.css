@@ -1,16 +1,7 @@
-.navbar{
-    display: block;
-    justify-content: center;
-}
-
-.navbar-header-image{
-    display: flex;
-    justify-content:center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.navbar nav{
-    display: flex;
-    justify-content: center;
-}
+.nav-link:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  nav {
+    background: #70ff7e;
+  }

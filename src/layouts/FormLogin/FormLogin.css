@@ -1,10 +1,10 @@
-form{
+form {
     width: 24%;
     background-color: #70ff7e;
     padding: 50px;
-    border-radius: 5px;
-    margin-top: 150px;   
-}
+    border-radius: 10px;
+    margin-top: 280px;
+  }
 
 .btn-primary{
     width: 100%;
@@ -28,6 +28,4 @@ form{
 .form-control:focus{
     background-color: transparent;
 }
- 
   
- 

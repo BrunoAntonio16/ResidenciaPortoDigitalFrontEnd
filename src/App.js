@@ -1,19 +1,59 @@
-
-import NavBar from './components/NavBar/NavBar';
 //import { Form } from 'react-router-dom';
 //import Table from './components/Table/Table';
-import Lista from './layouts/Lista';
-import FormLogin from './components/FormLogin';
-import Filtro from './layouts/Filtro';
-import Navbar from './layouts/Navbar';
-import Footer from './layouts/Footer';
-import Form from './layouts/Form';
-import FormTitle from './components/FormTitle';
-import AppRoutes from "./routes";
+import FormLogin from './layouts/FormLogin/FormLogin';
+import NavBar  from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+
+
+const ItensNav = [
+  {
+    href: "#",
+    text: "Home",
+  },
+
+  {
+    href: "#",
+    text: "Functions",
+    dbt: "offcanvas",
+    role: "button",
+    ac: "sidebar",
+  },
+
+  {
+    href: "#",
+    text: "About",
+  }
+]
+
+const ItensFooter = [
+  
+  {
+    href: "#",
+    text: "Whatsapp",
+  },
+
+  {
+    href: "#",
+    text: "Discord",
+  },
+
+  {
+    href: "#",
+    text: "Instagram",
+  },
+
+  {
+    href: "#",
+    text: "LinkedIn",
+  },
+  
+]
+
+
 function App() {
   return (
     <div className="App">
-          <AppRoutes/>
+          <FormLogin />
     </div>
   );
 }
